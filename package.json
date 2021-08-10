@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "dbf": "0.1.0",
+    "file-saver": "^2.0.5",
     "jszip": "2.5.0"
   },
   "devDependencies": {

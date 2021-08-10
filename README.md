@@ -2,9 +2,16 @@
 
 # shp-write
 
+## Forked modifications
+
+- Come back to `0.2.3` version (no conflicts with multiple polygons)
+- Download Shapefile zip from `Blob` instead of `href` (larger file size limit)
+
+---
+
 Writes shapefile in pure javascript. Uses [dbf](https://github.com/tmcw/dbf)
-for the data component, and [jsZIP](http://stuk.github.io/jszip/) to generate
-ZIP file downloads in-browser.
+for the data component, [jsZIP](http://stuk.github.io/jszip/) to generate
+ZIP file downloads in-browser and [file-saver](https://github.com/eligrey/FileSaver.js) to save files on the client side.
 
 ## Usage
 

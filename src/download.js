@@ -1,6 +1,7 @@
+var FileSaver = require('file-saver');
 var zip = require('./zip');
 
 module.exports = function(gj, options) {
     var content = zip(gj, options);
-    location.href = 'data:application/zip;base64,' + content;
+    FileSaver.saveAs(content, 'download.zip');
 };

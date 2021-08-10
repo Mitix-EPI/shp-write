@@ -28,5 +28,5 @@ module.exports = function(gj, options) {
         }
     });
 
-    return zip.generate({compression:'STORE'});
+    return zip.generate({ compression:'STORE', type: 'blob' });
 };
